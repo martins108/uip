@@ -77,6 +77,6 @@
         <InArgument x:TypeArguments="x:String" x:Key="test" />
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <uast:ExtractText EndingText="{x:Null}" FirstMatch="{x:Null}" Results="{x:Null}" StartingText="{x:Null}" DisplayName="Extract Text" ExtractBaseURLOnly="False" ExtractOptions="Email" sap:VirtualizedContainerService.HintSize="416,213" sap2010:WorkflowViewState.IdRef="ExtractText_1" IgnoreDuplicates="False" MatchCase="False" Source="[Xaml]" />
+    <uast:ExtractText EndingText="{x:Null}" FirstMatch="{x:Null}" Results="{x:Null}" StartingText="{x:Null}" DisplayName="Extract Text" ExtractBaseURLOnly="False" ExtractOptions="URLs" sap:VirtualizedContainerService.HintSize="416,213" sap2010:WorkflowViewState.IdRef="ExtractText_1" IgnoreDuplicates="False" MatchCase="False" Source="[Xaml]" />
   </Sequence>
 </Activity>
